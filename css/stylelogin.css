@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(/img/vscode.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.label-float input{
+    width: 100%;
+    padding: 5px 5px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 2px solid #272262;
+    background-color: transparent;
+    outline: none;
+    min-width: 180px;
+    font-size: 16px;
+    transition: all .3s ease-out;
+    border-radius: 0;
+    color: #ffffff;
+}
+.label-float{
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.label-float input:focus{
+    border-bottom: 2px solid #4038a0;
+}
+.label-float label{
+    color: #AED3E3;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 1px;
+    transition: all .3s ease-out;
+}
+.label-float input:focus + label{
+    font-size: 13px;
+    margin-top:0;
+    color: #4038a0;
+}
+main{
+    display: flex;
+}
+.container{
+    width: 30%;
+    background-color: #0000aa99;    
+    padding: 40px;
+    margin: 15% 0% 0% 14%;
+    border-radius: 4%;
+    box-shadow: 3px 3px 1px 0px #068af7ec;
+    color: #ffffff;
+}
+button{
+    background-color: transparent;
+    border-color: #272262;
+    color: #AED3E3;
+    width: 100%;
+    padding: 7px;
+    font-weight: bold;
+    font-size: 12pt;
+    margin-top: 20px;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    transition: all .4s ease-out;
+}
+button:hover{
+    background-color: #272262;
+    color: #ffffff;
+    width: 99%;
+    border-radius: 8px;
+}
+p{
+    color: #AED3E3;
+    font-size: 14pt;
+    text-align: center;
+}
+a{
+    color: #7a3077;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .3s ease-out;
+}
+a:hover{
+    color: #272262;
+}
+#eye{
+    width: 30px;
+    position: absolute;
+    top: 30%;
+    left: 93%;
+    cursor: pointer;
+}
+#eye:hover{
+    width: 32px;
+}
+@media (max-width: 800px) {
+    .container {
+      width: 70%;
+    }
+  }
+@media (max-width: 500px) {
+    .container {
+        width: 80%;
+        margin: 35% 0% 0% 10%;
+    }
+  }
