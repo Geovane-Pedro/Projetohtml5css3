@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(../img/vscode-dev.png);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+}
+main{
+    width: 40vw;
+    height: 70vh;
+    background-color: #000000d5;
+    border-radius: 10px;
+    margin: 6%;
+    padding: 3%;
+    box-shadow: 4px 4px 4px 3px #272262;
+}
+h2{
+    color : #ffffff;
+    margin-bottom: 8%;
+    text-align: center;
+}
+input{
+    width: 100%;
+    padding: 2%;
+    margin: 2% 0%;
+    background-color: transparent;
+    border-bottom: 2px solid #272262;
+    border-right: 2px solid #272262;;
+    outline: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+input:focus{
+    border: 2px solid #4038a0;
+}
+label{
+    color: #ffffff;
+    font-size: 18px;
+}
+button{
+    background-color: transparent;
+    border-color: #272262;
+    color: #AED3E3;
+    width: 100%;
+    padding: 7px;
+    font-weight: bold;
+    font-size: 12pt;
+    margin-top: 20px;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    transition: all .4s ease-out;
+}
+button:hover{
+    background-color: #272262;
+    color: #ffffff;
+    width: 99%;
+    border-radius: 8px;
+}
+@media (max-width: 800px) {
+    main {
+      width: 90vw;
+      height: 80vh;
+    }
+  }
+  @media (max-width: 500px) {
+    main {
+      width: 90vw;
+      height: 70vh;
+      margin-top: 20%;
+    }
+  }
+  @media screen and (orientation:landscape) and (max-width: 932px){
+    main {
+        width: 60vw;
+        height: 150vh;
+      }
+  }
