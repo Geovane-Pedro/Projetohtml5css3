@@ -43,6 +43,16 @@ label{
     color: #ffffff;
     font-size: 18px;
 }
+#eye{
+    width: 30px;
+    cursor: pointer;
+    float: right;
+}
+#eye2{
+    width: 30px;
+    cursor: pointer;
+    float: right;
+}
 button{
     background-color: transparent;
     border-color: #272262;

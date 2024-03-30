@@ -12,22 +12,25 @@
         <h2>Vamos prosseguir com o cadastro!</h2>
         <form action="" method="post">
             <label for="userName">Nome</label>
-            <input type="text" name="userName">
+            <input id="userName" type="text" name="userName" required minlength="4">
 
             <label for="email">Email</label>
-            <input type="email" name="email">
+            <input id="email" type="email" name="email" required minlength="13">
 
             <label for="password">Senha</label>
-            <input type="password" name="password">
+            <img id="eye" src="../img/eyeBlock.png">
+            <input id="password" type="password" name="password" required minlength="8" maxlength="12">
 
-            <label for="password2">Confirme sua senha</label>
-            <input type="password" name="password2">
+            <label id="confirmLabel" for="password2">Confirme sua senha</label>
+            <img id="eye2" src="../img/eyeBlock.png">
+            <input id="password2" type="password" name="password2" required minlength="8" maxlength="12">
+            <a href="file:///E:/codigos/DSI/Projetohtml5css3/index.html"><button type="submit">Salvar</button></a>
         </form>
-        <a href="file:///E:/codigos/DSI/Projetohtml5css3/index.html"><button>Salvar</button></a>
     </main>
     <footer>
         <p>&COPY;Todos os direitos reservados.</p>
         <a href="#">Políticas de Privacidade</a>
     </footer>
 </body>
+<script src="../js/script.js"></script>
 </html>
